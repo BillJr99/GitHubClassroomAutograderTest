@@ -89,6 +89,26 @@
       "comparison": "included",
       "timeout": 10,
       "points": 10
-    }
+    },
+    {
+      "name": "Check python script",
+      "setup": "",
+      "run": "python test.py 4 2",
+      "input": "",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Check python script",
+      "setup": "",
+      "run": "python test.py 5 4",
+      "input": "",
+      "output": "1.25",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }      
   ]
 }
